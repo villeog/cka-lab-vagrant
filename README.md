@@ -28,3 +28,13 @@ git clone https://github.com/<your-username>/cka-lab-vagrant.git
 cd cka-lab-vagrant
 vagrant up
 
+## 🛠️ Usage
+
+Run common tasks with:
+
+```bash
+make up            # Start Vagrant cluster
+make ssh-master    # SSH into master node
+make join-command  # Get kubeadm join command
+make destroy       # Destroy all VMs
+
